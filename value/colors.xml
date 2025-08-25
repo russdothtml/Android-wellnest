@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name ="parent_color">#D69A6D</color>
-    <color name ="parent2_color">#D69A6D</color>
-    <color name ="offwhite">#F9F4E8</color>
-</resources>
