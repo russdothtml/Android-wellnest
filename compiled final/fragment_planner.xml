@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#D88D5B">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Goal Title -->
+        <EditText
+            android:id="@+id/editText_goal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your goal"
+            android:inputType="textCapSentences"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Goal Description (optional) -->
+        <EditText
+            android:id="@+id/editText_goal_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textSize="15sp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Target Date Picker -->
+        <TextView
+            android:id="@+id/text_target_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target Date:"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:layout_marginBottom="8dp" />
+
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="true"
+            android:spinnersShown="false"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/button_save_goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Goal"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+

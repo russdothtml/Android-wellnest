@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D69A6D"
+    android:padding="16dp"
+    tools:context=".JournalDetailActivity">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/back_button"
+        android:contentDescription="Go back" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/detail_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 July, 2025"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We won a game!"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp" />
+
+    <!-- Mood -->
+    <TextView
+        android:id="@+id/detail_mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mood: Happy"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Journal Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today we played a really intense match. Everyone did their best and we managed to win! It was such a fun day."
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:lineSpacingExtra="6dp" />
+    </ScrollView>
+
+</LinearLayout>

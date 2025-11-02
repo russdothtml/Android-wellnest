@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+
+    <item
+        android:id="@+id/nav_planner"
+        android:title="Planner"
+        android:icon="@drawable/ic_pen" />
+
+
+    <item
+        android:id="@+id/nav_journal"
+        android:title="Journal"
+        android:icon="@drawable/ic_book" />
+
+
+    <item
+        android:id="@+id/nav_exercises"
+        android:title="Exercises"
+        android:icon="@drawable/ic_dumbbell" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_post" />
+
+
+</menu>

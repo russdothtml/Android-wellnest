@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Wellnestlayoutjournal</string>
+    <string name="app_logo">App Logo</string>
+    <string name="intro_sign_in">Sign In</string>
+    <string name="intro_register">Register</string>
+    <string name="title_j">Journal</string>
+    <string name="date">July</string>
+    <string name="july_25">25 July, 2025</string>
+    <string name="title_journal1">We won a game!</string>
+    <string name="title_mood1">Mood:Happy</string>
+    <string name="july_26">26 July, 2025</string>
+    <string name="title_journal2">I lost my pet</string>
+    <string name="title_mood2">Mood:Sad</string>
+    <string name="july_27">27 July, 2025</string>
+    <string name="title_journal3">I got the highest score!</string>
+    <string name="title_mood3">Mood:Happy</string>
+    <string name="july_28">28 July, 2025</string>
+    <string name="title_journal4">Thinking about what I did to my friend</string>
+    <string name="title_mood4">Mood:Concerned</string>
+    <string name="save_journal">Save Journal</string>
+    <string name="image_button_desc">Back Button</string>
+    <string name="write">""</string>
+    <string name="writedatejournal">July 28,2025</string>
+    <string name="writetitlejournal">Thinking about what I did to my friend</string>
+    <string name="mood">Concerned</string>
+    <string name="edit_text_write">edit_text_write\n</string>
+    <string name="back_button">Back Button</string>
+    <string name="exercises">Exercises</string>
+    <string name="jogging">Jogging</string>
+    <string name="road_jogging">Road Jogging</string>
+    <string name="road_jogging_description">Road jogging involves running on paved roads, often in urban areas.</string>
+    <string name="jogging_type">Jogging Type</string>
+    <string name="roadjogging_head">Road Jogging</string>
+    <string name="roadjogging_introduction">Road jogging involves running on paved roads, often in urban areas.</string>
+    <string name="yoga">Yoga</string>
+    <string name="hatha_yoga">Hatha Yoga</string>
+    <string name="hathayoga_head">Hatha Yoga</string>
+    <string name="hathayoga_introduction">Hatha Yoga emphasizes physical postures and breath control.</string>
+    <string name="hathayoga_description">Hatha Yoga is a practice of postures and breathing that balances the body and mind, promoting strength, flexibility, and inner calm.</string>
+    <string name="breathing_exercises">Breathing Exercises</string>
+    <string name="mindfulnessmeditation">Mindfulness Meditation</string>
+    <string name="mindfulnessmeditation_description">Mindfulness meditation is a practice that involves focusing your attention on the present moment, cultivating awareness of your thoughts, feelings, and bodily sensations without judgment. This technique helps reduce stress, enhance emotional regulation, and promote a sense of calm and clarity. By regularly engaging in mindfulness meditation, individuals can experience improved mental well-being and a deeper connection to their inner selves.</string>
+    <string name="meditation">Meditation</string>
+    <string name="mindfulnessmeditation_head">Mindfulness Meditation</string>
+    <string name="mindfulnessmeditation_introduction">Mindfulness meditation focuses on being present and aware.</string>
+    <string name="bodyweightsquats">bodyweightsquats\n</string>
+    <string name="date_e_g_19_october_2025">Date (e.g. 19 October 2025)</string>
+    <string name="title">Title</string>
+    <string name="write_your_journal_here">Write your journal here...</string>
+    <string name="select_month">Select Month</string>
+    <string name="_25_july_2025">25 July, 2025</string>
+    <string name="we_won_a_game">We won a game!</string>
+    <string name="mood_happy">Mood: Happy</string>
+    <string name="i_lost_my_pet">I lost my pet</string>
+    <string name="mood_sad">Mood: Sad</string>
+    <string name="_27_july_2025">27 July, 2025</string>
+    <string name="i_got_the_highest_score">I got the highest score!</string>
+    <string name="mood__happy">Mood: Happy</string>
+    <string name="july">July</string>
+    <string name="journal">Journal</string>
+    <string name="go_back">Go back</string>
+    <string name="_28_july_2025">28 July, 2025</string>
+    <string name="thinking_about_what_i_did_to_my_friend">Thinking about what I did to my friend</string>
+    <string name="mood_concerned">Mood: Concerned</string>
+    <string name="add_new_journal">Add new journal</string>
+    <string name="joggingcard">Jogging</string>
+    <string name="yogacard">Yoga</string>
+    <string name="breathing_exercises_card">Breathing Exercises</string>
+    <string name="meditationcard">Meditation</string>
+    <string name="bodyweight_squats_card">Bodyweight Squats</string>
+
+
+    <string-array name="mood_options">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Excited</item>
+        <item>Calm</item>
+        <item>Angry</item>
+        <item>Concerned</item>
+    </string-array>
+</resources>
